@@ -8,7 +8,7 @@ This repository hosts code for the paper:
 
 
 ## Installation
-This projects requires a properly configured Neo4j database (version >= 5.24) and the python packets of the `requirements.txt` 
+This projects requires a properly configured Neo4j database (version >= 5.24) and the following python packets installed.
 ```
 pip install requirements.txt
 ```

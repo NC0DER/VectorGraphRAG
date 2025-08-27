@@ -8,20 +8,19 @@ This repository hosts code for the paper:
 
 
 ## Installation
-This projects requires a properly configured Neo4j database (version >= 5.24) and the following python packets installed.
+This project requires a properly configured Neo4j database (version >= 5.24) and some python packages installed.
 ```
 pip install requirements.txt
 ```
 
 ## Reproducibility
-To reproduce the results of this paper, use the `GPT4o-mini` extracted triplets stored in `medmcqa_triplets.csv`.
+To reproduce the experimental results of this paper, use the `GPT4o-mini` extracted triplets stored in `medmcqa_triplets.csv`.
 Some of the evaluated open-weights models require an access request from their official HuggingFace pages (e.g., Llama-3.1-8B-instruct, Gemma-2-9B-it).
 Once you are granted access to these models, set your huggingface access token in the respective variable of `config.py` before running the experiments.
+Additionally, set the remaining variables in the `config.py` and run the experiments from `main.py`.
 
 ## Citation
-The model has been officially released with the article:  
-[VectorGraphRAG: Automatic Knowledge Graph Construction and Memory Efficient Triplet Ranking for Medical Question Answering]().  
-If you use the data, code or model, please cite the following:
+If you use the data, code or model of this paper please cite the following:
 
 ```bibtex
 TBA
